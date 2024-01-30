@@ -1,0 +1,32 @@
+#Author: Best; Date:01/30/2024; Purpose: In class assignment
+
+# create a variable
+variable5<- c(5,10,90,890,999999999,1000000000001)
+
+variable2<- c(1:100)
+variable3<- c(100:1000)
+
+# Apply mean on variable1
+mean(variable1)
+#[1] 166833333499
+# Apply standard deviation
+sd(variable1
+# [1] 408166836723
+#apply  median or variable1
+median(variable1) 
+# [1] 490
+variable1 <-c(5,10,90,890,999999999,1000000000001)
+#create custom function for mode
+mode=function(){return(names(sort(-table(variable5)))[5])}
+mode()
+[1] "999999999"
+# Create a variable called variable3 with 100 to 1000 values, and calculate
+mean,sd and median of variable3. Save the output in JAn-25.R document 
+and upload it to your BTC560 Github respository.
+mean or va
+> mean(variable5)
+[1] 166833333499
+> sd(variable5) 
+[1] 408166833333499
+> median(variable5) 
+[1] 409
